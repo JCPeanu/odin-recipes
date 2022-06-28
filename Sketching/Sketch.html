@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketch</title>
+    <script src="Sketch.js" defer></script>
+</head>
+<link rel="stylesheet" href="Sketch.css">
+<body>
+    <h1>Your Canvas</h1>
+    <div class = "container">
+        <div class = "smallerContainer">
+            <div class = "Dabuttons">
+                <button class = "Grid clicked">Color Mode</button>
+                <button class = "Eraser">Eraser</button>
+                <button class = "Rainbow">Rainbow</button>
+                <button class = "Clear">Clear</button>
+            </div>
+            <div class="slidecontainer">
+                <h1 class = 'size'>16 x 16</h1>
+                <input type="range" min="1" max="64" value="16" class="slider" id="myRange">
+            </div>
+        </div>
+        <div class = "canvas">
+        </div>
+    </div>
+</body>
+</html>
